@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>MVC Person Form</title>
+</head>
+<body>
+
+    <h1>Person Information</h1>
+
+    <form action="Controller" method="post">
+
+        First Name:
+        <input type="text" name="firstName" required>
+        <br><br>
+
+        Last Name:
+        <input type="text" name="lastName" required>
+        <br><br>
+
+        Birth Day:
+        <input type="date" name="birthDay" required>
+		<br><br>
+
+        Sex:
+        <select name="sex">
+            <option value="Female">Female</option>
+            <option value="Male">Male</option>
+        </select>
+        <br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+</html>

@@ -1,1 +1,9 @@
+# Fichiers Java compilés
 **/classes/
+*.class
+
+# Fichiers temporaires
+*.log
+
+# Configuration personnelle de l'espace Eclipse
+.metadata/
